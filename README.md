@@ -1,27 +1,16 @@
 # Provider Portal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4
+And bootstrap v4.0.0 
+And jQuery v3.2.1
+And node.js v5.6.9
 
-## Development server
 
-Open command prompt and navigate to the project fodler.  Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## How to run this project
 
-## Code scaffolding
+Open command prompt and navigate to the project folder 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The folder is missing the "node-modules" components so you need to run "npm install" from the command prompt to get them
 
-## Build
+Run `ng serve` for a server. Navigate to `http://localhost:4200/`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
