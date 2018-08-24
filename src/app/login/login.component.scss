@@ -1,0 +1,39 @@
+.bg {
+    background: url("/assets/img/background2.png")no-repeat center center;
+    background-size: cover;
+}
+ /*
+.slide1{
+    background: url("/assets/img/background1.png")no-repeat center center;
+    background-size: cover;
+
+}
+.slide2{
+    background: url("/assets/img/background2.png")no-repeat center center;
+    background-size: cover;
+}
+.slide3{
+    background: url("/assets/img/background3.png")no-repeat center center;
+    background-size: cover;
+}*/
+  
+.formbox {
+    border: solid;
+    border-color: black;
+    background-color: #427e84;
+    width: 90%;
+    opacity: .8;
+}
+
+.formbox input {
+    display:inline;
+}
+
+.formbox label {
+    width:200px;
+    display: block;
+}
+
+.article {
+    display: inline-block;
+}
