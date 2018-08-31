@@ -1,10 +1,10 @@
 # Provider Portal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4
-And bootstrap v4.0.0 
-And jQuery v3.2.1
-And node.js v5.6.9
-
+This project was generated with 
+ - Angular  v6.1.4
+ - Node.js v5.6.9
+ - jQuery v3.2.1
+ - Bootstrap v4.0.0 
 
 ## How to run this project
 
