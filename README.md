@@ -14,3 +14,7 @@ The folder is missing the "node-modules" components so you need to run "npm inst
 
 Run `ng serve` for a server. Navigate to `http://localhost:4200/`
 
+
+### To Do
+Add MySQL database and add sign up and login functionality
+
