@@ -1,6 +1,6 @@
 # Provider Portal
 
-This project was generated with 
+This project was made with:
  - Angular  v6.1.4
  - Node.js v5.6.9
  - jQuery v3.2.1
