@@ -16,5 +16,5 @@ Then run `ng serve` to start the local server. Navigate to `http://localhost:420
 
 
 ### To Do
-- Add MySQL database and add sign up and login functionality
+- Add MySQL database and add sign up/login functionality
 
