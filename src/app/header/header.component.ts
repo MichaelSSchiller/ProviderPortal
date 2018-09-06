@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, ParamMap} from '@angular/router';
 import { isNullOrUndefined } from 'util';
+declare var $: any;
 
 
 @Component({
