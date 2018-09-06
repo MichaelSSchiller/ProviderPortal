@@ -18,29 +18,29 @@
 
     <div class="col m-4"></div>
 
-    <div class="col formbox text-light m-3">
+    <div class="col formbox m-3">
       <div class="form-inline py-1">
-        <label for="fname">First Name</label>
-        <input type="text" class="form-control" id="fname">
+        <label><b>First Name</b></label>
+        <input type="text" class="form-control" [(ngModel)]="firstName" (keyup)="validateFirstName()" required>
       </div>
       <div class="form-inline py-1">
-        <label for="lname">Last Name</label>
-        <input type="text" class="form-control" id="lname">
+        <label><b>Last Name</b></label>
+        <input type="text" class="form-control" [(ngModel)]="lastName" (keyup)="validateLastName()"required>
       </div>
       <div class="form-inline py-1">
-        <label for="email">Email</label>
-        <input type="email" class="form-control" id="email">
+        <label><b>Email</b></label>
+        <input type="email" class="form-control" [(ngModel)]="email" (keyup)="validateEmail()" required>
       </div>
       <div class="form-inline py-1">
-        <label for="pwd">Password</label>
-        <input type="password" class="form-control" id="pwd">
+        <label><b>Password</b></label>
+        <input type="password" class="form-control" [(ngModel)]="password" (keyup)="validatePW()" required>
       </div>
       <div class="form-inline py-1">
-        <label for="cpwd">Confirm Password</label>
-        <input type="password" class="form-control" id="cpwd">
+        <label><b>Confirm Password</b></label>
+        <input type="password" class="form-control" [(ngModel)]="cpassword" (keyup)="validateCPW()" required>
       </div>
       <div class="form-row justify-content-center">
-        <button type="submit" class="btn m-1" routerLink="/headerdummy">Sign Up</button>
+        <button type="submit" class="btn m-1" (click)="checkForm()" [disabled]="!isFormValid"><b>Sign Up</b></button>
       </div>
     </div>
 
