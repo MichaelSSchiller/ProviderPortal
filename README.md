@@ -6,6 +6,9 @@ This project was made with:
  - jQuery v3.2.1
  - Bootstrap v4.0.0 
 
+##### 9/5/18
+- Added Login and Sign up validation
+
 ## How to run this project
 
 Open command prompt and navigate to the project folder 
@@ -16,5 +19,5 @@ Then run `ng serve` to start the local server. Navigate to `http://localhost:420
 
 
 ### To Do
-- Add MySQL database and add sign up/login functionality
+- Add MySQL database and add Login and Sign Up functionality
 
